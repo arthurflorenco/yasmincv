@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Yasmin Souza",
+    template: "%s | Yasmin Souza",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Yasmin Souza portfolio",
   openGraph: {
-    title: "chronark.com",
+    title: "Yasmin Souza",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Yasmin Souza portfolio",
     url: "https://chronark.com",
-    siteName: "chronark.com",
+    siteName: "Yasmin Souza",
     images: [
       {
         url: "https://chronark.com/og.png",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "pt",
     type: "website",
   },
   robots: {

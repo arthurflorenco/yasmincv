@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Mail size={20} />,
+		href: "tel:+351963284641",
+		label: "Telemovel",
+		handle: "+351 963 284 641",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:yasminossouza1@gmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "yasminossouza1@gmail.com",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/yasmin-souza-2b1829323/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+		label: "LinkedIn",
+		handle: "yasminsouza",
 	},
 ];
 
@@ -46,7 +46,7 @@ export default function Example() {
 									{s.icon}
 								</span>{" "}
 								<div className="z-10 flex flex-col items-center">
-									<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
+									<span className="lg:text-xl font-medium duration-150 xl:text-2xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
 									</span>
 									<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
